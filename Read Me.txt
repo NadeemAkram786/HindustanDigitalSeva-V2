@@ -1,3 +1,4 @@
 1. Navbar, Hero, Banner, Slider has been designed.
 2. Theme changed to blue.
 3. Partners section is now ready.
+4. Home page is almost completed.
