@@ -1,23 +1,24 @@
-/*=============== SHOW MENU ===============*/
+/* SCRIPT FOR NAVBAR */
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
 
-/* Menu show */
+// Menu show
 if(navToggle){
     navToggle.addEventListener('click', () =>{
         navMenu.classList.add('show-menu')
     })
 }
 
-/* Menu hidden */
+// Menu hidden
 if(navClose){
     navClose.addEventListener('click', () =>{
         navMenu.classList.remove('show-menu')
     })
 }
 
-/* slider script */
+
+/* SCRIPT FOR SLIDER */
 new Swiper('.card-wrapper', {
     loop: true,
     spaceBetween: 30,
@@ -48,3 +49,4 @@ new Swiper('.card-wrapper', {
         }
     }
 });
+
