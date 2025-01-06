@@ -3,3 +3,4 @@
 3. Partners section is now ready.
 4. Home page is almost completed.
 5. Mission page is ready.
+6. Services page is ready.
