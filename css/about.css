@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
 
 :root {
     --header-height: 3.5rem;
@@ -8,7 +8,7 @@
     --blue-color: #3b5ddb;
     --blue-light-color: #d2dafc;
     --deep-blue: blue;
-    --body-font: "Montserrat Alternates", sans-serif;
+    --body-font: "National Park", sans-serif;
     --h1-font-size: 1.5rem;
     --normal-font-size: .938rem;
     --font-regular: 400;

@@ -26,6 +26,9 @@
     <!--Favicon-->
     <link rel="icon" href="favicon2.png">
 
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
@@ -106,12 +109,12 @@
     <!--Customer Care-->
     <div class="customer-hero">
         <div class="customer-hero-items">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1400">
                 <h1>ENQUIRY</h1>
                 <hr>
                 <h2>Discover how can we help you in your digital journey today.</h2>
             </div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="1400">
                 <img src="images/contact/customercare.png" alt="customer care img">
             </div>
         </div>
@@ -120,7 +123,8 @@
     <!--Form-->
     <div class="form">
         <div class="form-items">
-            <div class="form-item-1">
+
+            <div class="form-item-1" data-aos="fade-right" data-aos-duration="1400">
                 <form action="https://formsubmit.co/c32c202acedd569fec834bf3200d572b" method="post" accept-charset="UTF-8">
                     <div>
                         <label>Email Address</label>
@@ -143,11 +147,11 @@
                 </form>
             </div>
 
-            <div class="form-item-2">
+            <div class="form-item-2" data-aos="fade-up" data-aos-duration="1400">
                 <h1>OR</h1>
             </div>
 
-            <div class="form-item-3">
+            <div class="form-item-3" data-aos="fade-up" data-aos-duration="1400">
                 <h2 style="text-decoration: underline">Contact Us</h2>
                 <h4>Hindustan Digital Seva</h4>
                 <p>Ena Islampur Bastacolla Bhagatdih Dhanbad</p>
@@ -193,5 +197,13 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--Linking JS-->
 <script src="scripts/contact.js"></script>
+
+    <!--linking aos script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1,
+        });
+    </script>
 </body>
 </html>
