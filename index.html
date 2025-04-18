@@ -26,6 +26,9 @@
     <!--Favicon-->
     <link rel="icon" href="favicon2.png">
 
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
@@ -107,10 +110,10 @@
     <div class="hero">
         <div class="hero-container">
             <div class="hero-items">
-                <h2>Welcome To</h2>
-                <h1>HINDUSTAN DIGITAL SEVA</h1>
-                <h3>Seva For Every Citizen</h3>
-                <a href="contact.html">Get Started</a>
+                <h2 data-aos="fade-up" data-aos-duration="1400">Welcome To</h2>
+                <h1 data-aos="zoom-in" data-aos-duration="1400">HINDUSTAN DIGITAL SEVA</h1>
+                <h3 data-aos="fade-right" data-aos-duration="1400">Seva For Every Citizen</h3>
+                <a data-aos="fade-right" data-aos-duration="1400" href="contact.html">Get Started</a>
             </div>
         </div>
     </div>
@@ -126,13 +129,13 @@
     <!--Why-->
     <div class="why">
         <div class="why-items">
-            <div class="why-choose">
+            <div class="why-choose" data-aos="fade-left" data-aos-duration="1400">
                 <h1>Why Should You Choose Us?</h1>
                 <h3><i class="fas fa-user-tie"></i> Professionals Only</h3>
                 <h3><i class="fas fa-rupee-sign"></i> Amazing Price</h3>
                 <h3><i class="fas fa-boxes"></i> Diversity</h3>
             </div>
-            <div class="why-shield">
+            <div class="why-shield" data-aos="fade-right" data-aos-duration="1400">
                 <img src="images/home/shield.png" alt="shield-img">
                 <h2>Best Quality Ever</h2>
                 <p>No question asked money back.</p>
@@ -142,7 +145,7 @@
 
     <!--slider-->
     <div class="hds-slider" id="testimonials">
-        <div class="container swiper">
+        <div class="container swiper" data-aos="flip-left" data-aos-duration="1400">
             <div class="card-wrapper">
                 <!-- Card slides container -->
                 <ul class="card-list swiper-wrapper">
@@ -201,11 +204,11 @@
     <!--Partner-->
     <div class="partner">
         <div class="partner-container">
-            <div class="partner-text">
+            <div class="partner-text" data-aos="slide-down" data-aos-duration="1400">
                 <h1>Our Proud Partners</h1>
                 <hr>
             </div>
-            <div class="partner-logo">
+            <div class="partner-logo" data-aos="slide-up" data-aos-duration="1400">
                 <div class="partern-1">
                     <img src="images/home/partners/uti.png" alt="uti-logo"><br>
                     <a href="">UTI Infrastructure Technology And Services Limited (UTIITSL)</a>
@@ -233,12 +236,12 @@
     <!--social-->
     <div class="social" id="social">
         <div class="social-container">
-            <div class="social-text">
+            <div class="social-text" data-aos="slide-up" data-aos-duration="1400">
                 <h1>Engage and Follow Us</h1>
                 <hr>
             </div>
             <div class="social-link-container">
-                <div class="social-links">
+                <div class="social-links" data-aos="flip-left" data-aos-duration="1400">
                     <a href="#"><img src="images/home/social-icons/whatsapp.png" alt="whatsapp img"></a>
                     <a href="#"><img src="images/home/social-icons/instagram.png" alt="insta img"></a>
                     <a href="#"><img src="images/home/social-icons/facebook.png" alt="facebook img"></a>
@@ -281,5 +284,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--Linking JS-->
     <script src="scripts/main.js"></script>
+
+    <!--linking aos script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1,
+        });
+    </script>
 </body>
 </html>
