@@ -7,3 +7,4 @@
 7. About Us page is ready.
 8. Contact us page is ready.
 9. home page animation is ready.
+10. services page has got animated.

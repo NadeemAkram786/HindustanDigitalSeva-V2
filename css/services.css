@@ -338,6 +338,7 @@ a {
 .general {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .general-items {
@@ -377,6 +378,7 @@ a {
 .photo {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .photo-items {
@@ -416,6 +418,7 @@ a {
 .csc {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .csc-items {
@@ -455,6 +458,7 @@ a {
 .tender {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow:  hidden;
 }
 
 .tender-items {
@@ -494,6 +498,7 @@ a {
 .travel {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .travel-items {
@@ -533,6 +538,7 @@ a {
 .transport {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .transport-items {
@@ -572,6 +578,7 @@ a {
 .insurance {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .insurance-items {
@@ -611,6 +618,7 @@ a {
 .epf {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .epf-items {
@@ -650,6 +658,7 @@ a {
 .web {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow:  hidden;
 }
 
 .web-items {
@@ -689,6 +698,7 @@ a {
 .happyClient {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .happyClient-items {
