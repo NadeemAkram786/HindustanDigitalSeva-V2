@@ -260,6 +260,7 @@ a {
     background: var(--blue-light-color);
     height: 100vh;
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .hero-items {
@@ -301,6 +302,7 @@ a {
 /* ABOUT US TEXT */
 .aboutText {
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .aboutText-items {
@@ -322,6 +324,7 @@ a {
 /* OWNER */
 .owner {
     background: darkblue;
+    overflow: hidden;
 }
 
 .owner a {

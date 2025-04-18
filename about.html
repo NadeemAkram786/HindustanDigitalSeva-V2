@@ -26,6 +26,9 @@
     <!--Favicon-->
     <link rel="icon" href="favicon2.png">
 
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
@@ -105,7 +108,7 @@
 
     <!--Hero-->
     <div class="hero">
-        <div class="hero-items">
+        <div class="hero-items" data-aos="fade-up" data-aos-duration="1400">
             <div>
                 <h1>WHO WE ARE</h1>
                 <hr>
@@ -117,7 +120,7 @@
     <!--About Text-->
     <div class="aboutText">
         <div class="aboutText-items">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1400">
                 <h1>About Us</h1>
                 <p>It all starts with my beloved father’s idea. And It is to setup a small Xerox shop with Photo Copy Machine and a Laminator. We start proving digital xerox and lamination of documents to our customers. Meanwhile we face the urge of customer’s need which is more than xerox. So we setup printers and laptops then begin printing documents and photos as well. With scanner inbuilt in printer we now scan and make digital copy of physical documents in almost all the formats including jpeg, png and pdf. Not just that we also setup PVC printer and now we are good to go making smart card of any legal documents.
                 </p>
@@ -161,45 +164,45 @@
     <!--Owner-->
     <div class="owner">
         <div class="owner-items">
-            <div class="owner-text">
+            <div class="owner-text" data-aos="fade-right" data-aos-duration="1400">
                 <h1>Hindustan Digital Seva Leadership</h1>
                 <hr>
                 <br>
                 <p>HDS is led by a highly experienced team and we have list of experts ready for digital services you can think of. Below is our great personalities without whom Hindustan Digital Seva is impossible. </p>
             </div>
-            <div class="nadeem">
+            <div class="nadeem" data-aos="fade-right" data-aos-duration="1400">
                 <img src="images/about/nadeem.jpg" alt="Nadeem Akram Image">
                 <p><a href="#">Nadeem Akram</a></p>
                 <p>(Prince Nadeem)</p>
                 <p>CEO & FOUNDER</p>
             </div>
             <div class="other-owner">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1400">
                     <img src="images/about/wasim.jpg" alt="Director Img">
                     <p><a href="#">Wasim Akram</a></p>
                     <p class="other-owner-designation">DIRECTOR AND FINANCIAL MANAGER</p>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1400">
                     <img src="images/about/raja.jpg" alt="MD Img">
                     <p><a href="">Md Wasim Raja</a></p>
                     <p class="other-owner-designation">MANAGING DIRECTOR</p>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1400">
                     <img src="images/about/sarfraj.jpg" alt="Sarfraj Img">
                     <p><a href="#">Md Sarfraj</a></p>
                     <p class="other-owner-designation">VIDEO EDITOR</p>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1400">
                     <img src="images/about/mazhar.jpg" alt="Mazhar Img">
                     <p><a href="#">Md Mazhar</a></p>
                     <p class="other-owner-designation">WEB DESIGNER</p>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1400">
                     <img src="images/about/fahim.jpg" alt="Fahim Img">
                     <p><a href="#">Md Fahim Khan</a></p>
                     <p class="other-owner-designation">ADVISOR</p>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1400">
                     <img src="images/about/rehan.jpg" alt="Rehan Img">
                     <p><a href="#">Rehan Raza</a></p>
                     <p class="other-owner-designation">CHIEF MARKETING OFFICER</p>
@@ -242,5 +245,13 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--Linking JS-->
 <script src="scripts/about.js"></script>
+
+    <!--linking aos script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1,
+        });
+    </script>
 </body>
 </html>

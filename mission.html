@@ -26,6 +26,9 @@
     <!--Favicon-->
     <link rel="icon" href="favicon2.png">
 
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
@@ -106,12 +109,12 @@
     <!--Digital Era-->
     <div class="digital-era">
         <div class="digital-era-items">
-            <div>
+            <div data-aos="fade-down" data-aos-duration="1400">
                 <h1>The Age Of Digital Era</h1>
                 <h1>Has Started</h1>
                 <hr>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="1400">
                 <img src="images/mission/missionImage.jpg" alt="mission img">
             </div>
         </div>
@@ -120,10 +123,10 @@
     <!--Our Mission-->
     <div class="ourMission">
         <div class="ourMission-items">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1400">
                 <img src="images/mission/aim.jpg" alt="Our Mission Image">
             </div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="1400">
                 <h1>Our Mission</h1>
                 <hr>
                 <p><i class="fas fa-book-open"></i> Make our India a digital nation</p>
@@ -140,7 +143,7 @@
     <!--Vision-->
     <div class="vision">
         <div class="vision-items">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1400">
                 <h1>Our Vision</h1>
                 <hr>
                 <p><i class="fas fa-book-open"></i> Hindustan Digital Seva is one of the most well-known Internet Cafe, CSC & Company in Dhanbad.</p>
@@ -149,7 +152,7 @@
                 <p><i class="fas fa-book-open"></i> Our Vision is to go beyond providing ordinary digital experience</p>
                 <p><i class="fas fa-book-open"></i> Don't just read our vision, see our testimonials too for what customers say about us</p>
             </div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="1400">
                 <img src="images/mission/vision.jpg" alt="Vision Img">
             </div>
         </div>
@@ -188,5 +191,13 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--Linking JS-->
 <script src="scripts/mission.js"></script>
+
+    <!--linking aos script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 1,
+        });
+    </script>
 </body>
 </html>

@@ -259,6 +259,7 @@ a {
 .digital-era {
     background: var(--blue-light-color);
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .digital-era-items {
@@ -326,6 +327,7 @@ a {
 /* OUR MISSION */
 .ourMission {
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .ourMission-items {
@@ -378,6 +380,7 @@ a {
 /* VISION */
 .vision {
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 .vision-items {
